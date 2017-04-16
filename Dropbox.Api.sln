@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBlogDemo", "Examples\SimpleBlogDemo\SimpleBlogDemo.csproj", "{8772EB1E-3019-4FB3-9059-67681693E873}"
 EndProject
@@ -22,11 +22,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBusinessDashboard", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dropbox.Api.Tests", "Dropbox.Api.Tests\Dropbox.Api.Tests.csproj", "{0FDF769B-43F8-4907-98D5-A413BD9DE62D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dropbox.Api.Standard", "Dropbox.Api\Dropbox.Api.Standard.csproj", "{C8B6E622-8417-4437-8CF8-9324CED84598}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Examples\UniversalDemo\UniversalDemo\UniversalDemo.Shared\UniversalDemo.Shared.projitems*{51d9899c-31d6-4c22-b894-e9498cb90577}*SharedItemsImports = 4
-		Examples\UniversalDemo\UniversalDemo\UniversalDemo.Shared\UniversalDemo.Shared.projitems*{6bcc4215-b726-4b37-a932-4dca74a1d465}*SharedItemsImports = 13
 		Examples\UniversalDemo\UniversalDemo\UniversalDemo.Shared\UniversalDemo.Shared.projitems*{680e8f6f-aa67-4912-ae20-f89e482dc2cd}*SharedItemsImports = 4
+		Examples\UniversalDemo\UniversalDemo\UniversalDemo.Shared\UniversalDemo.Shared.projitems*{6bcc4215-b726-4b37-a932-4dca74a1d465}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,22 @@ Global
 		{0FDF769B-43F8-4907-98D5-A413BD9DE62D}.Release|ARM.ActiveCfg = Release|Any CPU
 		{0FDF769B-43F8-4907-98D5-A413BD9DE62D}.Release|x64.ActiveCfg = Release|Any CPU
 		{0FDF769B-43F8-4907-98D5-A413BD9DE62D}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Debug|x64.Build.0 = Debug|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Debug|x86.Build.0 = Debug|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Release|ARM.Build.0 = Release|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Release|x64.ActiveCfg = Release|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Release|x64.Build.0 = Release|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8B6E622-8417-4437-8CF8-9324CED84598}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

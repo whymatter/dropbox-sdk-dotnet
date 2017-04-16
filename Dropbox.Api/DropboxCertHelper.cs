@@ -205,12 +205,12 @@ namespace Dropbox.Api
         public static bool IsKnownRootCertPublicKey(byte[] publicKey)
         {
             var publicKeyString = BitConverter.ToString(publicKey).Replace("-", string.Empty);
-
             return ValidRoots.Contains(publicKeyString);
         }
 
 # if PORTABLE
 # elif PORTABLE40
+# elif NETSTANDARD1_6
 # else
         /// <summary>
         /// Initializes ssl certificate pinning.

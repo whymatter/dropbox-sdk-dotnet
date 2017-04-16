@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    
+    <PackageId>Dropbox.Api.Standard</PackageId>
+    <PackageVersion>4.2.4-Pre</PackageVersion>
+    <Authors>Oliver Seitz</Authors>
+    <Description>NET STANDARD library for accessing the Dropbox v2 API</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright (c) Dropbox Inc. 2016</Copyright>
+    <PackageTags>Dropbox Api NET STANDARD</PackageTags>
+    <IconUrl>https://cf.dropboxstatic.com/static/images/icons/blue_dropbox_glyph.png</IconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Dropbox.Api.nuspec" />
+    <None Remove="packages.config" />
+    <None Remove="packages.Dropbox.Api.Portable.config" />
+    <None Remove="packages.Dropbox.Api.Portable40.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+  </ItemGroup>
+
+</Project>
